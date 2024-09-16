@@ -109,24 +109,7 @@ def checkZero(x):
             elif i != x+width+1 and i != x+width-1 and i != x-width-1 and i != x-width+1:
                 view[i] = 0
                 checkZero(i)
-            
-    #da capire come non andare in altre righe
-    # if x+1 < width**2 and view[x+1] != 0 and field[x+1] <50 and x + 1 % width !=0:  
-    #     view[x+1] = 0
-    #     if field[x+1] == 0:
-    #         checkZero(x+1)
-    # if x-1 >=0 and view[x-1] != 0 and field[x-1] <50 and x % width !=0: 
-    #     view[x-1] = 0
-    #     if field[x-1] == 0:
-    #         checkZero(x-1)
-    # if x-width >= 0 and view[x-width] != 0 and field[x-width]<50: 
-    #     view[x-width] = 0
-    #     if field[x-width] == 0:
-    #         checkZero(x-width)
-    # if x+width < width**2 and view[x+width] != 0 and field[x+width]<50: 
-    #     view[x+width] = 0
-    #     if field[x+width] == 0:
-    #         checkZero(x+width)
+
     
 
 def getAttorno(x):
