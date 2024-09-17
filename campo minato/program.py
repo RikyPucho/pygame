@@ -160,7 +160,7 @@ def menu():
 
     easyBox = pygame.Rect((WIDTH-200)/2, 260,200,80)
     mediumBox = pygame.Rect((WIDTH-200)/2, 370,200,80)
-    hardBox = pygame.Rect((WIDTH-200)/2, 500,200,80)
+    hardBox = pygame.Rect((WIDTH-200)/2, 480,200,80)
     fontMenu = pygame.font.Font(None, 50)
     easyText = fontMenu.render("Facile", True, (0,0,0))
     mediumText = fontMenu.render("Intermedio", True, (0,0,0))
